@@ -1,33 +1,45 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Carrossel</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <main class="container">
-        <div class="slider">
-            <input type="radio" name="slider" id="slider1">
-            <input type="radio" name="slider" id="slider2">
-            <input type="radio" name="slider" id="slider3">
-            <input type="radio" name="slider" id="slider4">
-            <input type="radio" name="slider" id="slider5">
+      <div class="slides">
+        <input type="radio" name="slider" id="slider1" checked/>
+        <input type="radio" name="slider" id="slider2" />
+        <input type="radio" name="slider" id="slider3" />
+        <input type="radio" name="slider" id="slider4" />
+        <input type="radio" name="slider" id="slider5" />
 
-            <img src="images/img1.jpg" alt="">
-            <img src="images/img2.jpg" alt="">
-            <img src="images/img3.jpg" alt="">
-            <img src="images/img4.jpg" alt="">
-            <img src="images/img5.jpg" alt="">
-
-            <label for="slider1"></label>
-            <label for="slider2"></label>
-            <label for="slider3"></label>
-            <label for="slider4"></label>
-            <label for="slider5"></label>
+        <div class="slide sli1">
+          <img src="images/img1.jpg" alt="" />
         </div>
+        <div class="slide sli2">
+          <img src="images/img2.png" alt="" />
+        </div>
+        <div class="slide sli3">
+          <img src="images/img3.jpg" alt="" />
+        </div>
+        <div class="slide sli4">
+          <img src="images/img4.jpg" alt="" />
+        </div>
+        <div class="slide sli5">
+          <img src="images/img5.jpg" alt="" />
+        </div>
+
+        <div class="navigation">
+          <label for="slider1"></label>
+          <label for="slider2"></label>
+          <label for="slider3"></label>
+          <label for="slider4"></label>
+          <label for="slider5"></label>
+        </div>
+      </div>
     </main>
-</body>
+  </body>
 </html>
